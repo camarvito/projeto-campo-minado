@@ -43,7 +43,7 @@ class Campo {
     }
   }
 
-  void revelarBombas() {
+  void revelarBomba() {
     if (_minado) {
       _aberto = true;
     }
@@ -53,7 +53,7 @@ class Campo {
     _minado = true;
   }
 
-  void altenarMarcacao() {
+  void alternarMarcacao() {
     _marcado = !_marcado;
   }
 
